@@ -78,29 +78,42 @@ padding-left: 110px;
     padding-top: 16px;
     padding-left: 110px;
 }
+.section11{
+    display: flex;
+}
 .section_2{
+    width: 50%;
     background-color: #E5E5E5;
     border: 624px 484px;
 }
 
 .form{
-    padding-top: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
     width: 600px;
-    height: 700px; 
+    height: 500px; 
 }
-.input{
- width: 
- 624px;
- height: 
- Hug (64px);
+.one-input{
+ padding: 20px;
   border-color: #FFFFFF;
   border-radius: 4px;
+  width:600px;
 
 }
 .message{
-    padding-top: 24px;
+    padding-top:10px;
     padding-bottom: 24px;
-    padding-left: 260.5px;
-    padding-right: 260.5px;
+    padding-left: 20px;
     background-color: #FFD2A4;
+    width: 600px;
+    height: 50px;
+    margin-top: 12px;
+display: inline-block
 }
+
+.h5{
+    font-size: 24px  ;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
