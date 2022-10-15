@@ -1,0 +1,476 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Roboto , sans-serif;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    body{
+        background-color: #E5E5E5;
+    }
+    
+    .container{
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        padding: 0 50px;
+    }
+    
+    header{
+        position: sticky;
+        top: 0;
+        background-color: black;
+    }
+    
+    header .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navbar{
+        display: flex;
+        gap: 130px;
+        align-items: center;
+    }
+
+    .fa-solid  {
+        margin-left: 40px;
+    }
+      
+    .fa-bars {
+        display: inline;
+        cursor: pointer;
+    }
+    
+    .navbar ul{
+        display: flex;
+        gap: 40px;
+        list-style-type: none;
+    }
+    
+    .navbar a{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px; 
+        text-align: right;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    
+    .navbar a:hover{
+        color: #FFD2A4;
+    }
+    
+    .nav-btn button{
+        background: #FFD2A4;
+        backdrop-filter: blur(40px);
+        padding: 20px 48px;
+        border-radius: 12px;
+        margin: 12px 0px;
+    }
+
+    /* Main section */
+
+    main {
+        margin-top: 80px;
+    }
+
+    main .cont1{
+        margin-top: 80px;
+    }
+
+    .register-left {
+        flex: 50%;
+        padding-right:80px;
+    }
+
+    .register-left img{
+        margin-bottom: 10px;
+    }
+
+    .register-left h1{
+        font-weight: 700;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .upper{
+        text-transform: uppercase;
+    }
+
+    .size12{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .size16{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .pharagraf{
+        font-size: 16px;
+        font-weight: 400;
+        border: none;
+        border-left: 5px solid yellow;
+        padding-left: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .register-right {
+        flex: 50%;
+        padding-right: 50px;
+    }
+
+    .form{
+        border: none;
+        background-color: #F7F8FA;
+        width: 450px;
+        height: 400px;
+        padding: 0 30px;
+    }
+
+    .item{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .formtext{
+        margin-bottom: 20px;
+    }
+
+    .formtext h1{
+        padding-top: 30px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .continer{
+        width: 1440px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+    #size{
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0 15px;
+    }
+
+    #input{
+        border: none;
+        border-bottom: 1px solid gray;
+        background-color:#F7F8FA;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #input1{
+        border: none;
+        border-bottom: 1px solid gray;
+        background-color:#F7F8FA;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .bttn1{
+        padding: 15px 25px;
+        border: none;
+        background: #FFD2A4;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .cont-2{
+        margin-top: 100px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .cont-2>h1{
+        margin-bottom: 64px;
+        font-size: 48px;
+        font-weight: 700px;
+    }
+
+    .continer .container{
+        margin-left: 0;
+    }
+
+    .contain{
+        display: flex;
+        text-align: left;
+    }
+
+    .sermons {
+        background-color: #F7F8FA;
+        margin: 0 10px;
+        padding: 10px 25px;
+        flex: 25%;
+        margin-bottom: 100px;
+    }
+
+    .sermons .event{
+        margin-bottom: 16px;
+    }
+
+    .sermons .right{
+        text-align: right;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+
+    .sermons span{
+        font-size: 24px;
+        font-weight: 700px;
+    }
+
+    .sermons h1{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .adres{
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+
+    .adres img{
+        padding-right: 10px;
+    }
+
+
+
+    /* Footer */
+
+footer{
+    background-color: #161722;
+}
+
+footer .container{
+    display: flex;
+    padding: 64px 100px;
+}
+
+.footer-left{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    max-width: 35%;
+    flex: 35%;
+}
+
+.footer-left img{
+    padding-bottom: 16px;
+}
+
+.footer-left img+p{
+    padding-bottom: 16px;
+}
+
+.footer-left p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-center{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 30%;
+    max-width: 30%;
+    gap: 80px;
+}
+
+.footer-center h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer-center p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.78;
+}
+
+.footer-center__left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-center i{
+    font-size: 25px;
+    color: #FFD2A4;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.footer-right{
+    max-width: 35%;
+    flex: 35%;
+}
+
+.footer-right h2{
+    font-weight: 700;
+    max-width: 377px;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-right form{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right form input{
+    border: none;
+    padding: 20px 0px 20px 20px;
+    background-color: transparent;
+}
+
+.footer-right button{
+    padding: 24px 64px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1C1D28;
+    background: #FFD2A4;
+    border-radius: 12px;
+}
+
+@media (max-width:800px) {
+    .container{
+        width: 500px;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    .nav-btn button{
+        padding: 15px 25px;
+    }
+
+    header .container {
+        padding: 0px;
+    }
+
+    .navbar{
+        padding-left: 25px;
+    }
+    
+    .responsive {
+        position: fixed;
+        display: block !important;
+        z-index: 1;
+        top: 0;
+        height: 100vh;
+        left: 0;
+        right: 200px;
+        text-align: center;
+        background-color: #161722;
+        bottom: 0;
+        width: 35%;
+    }
+
+    .cont-2{
+        width: 100%;
+    }
+    .responsive li {
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .responsive a:hover {
+        color: #FFD2A4;
+    }
+
+    .contain{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .row{
+        flex-wrap: wrap;
+        padding-left: 5px;
+    }
+
+    .row img{
+        width: 100%;
+    }
+
+    .registred{
+        flex: 100%;
+        justify-content: center;
+
+    }
+
+    .formtext{
+        align-items: center;
+    }
+
+    .register-right{
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+
+    .sermons{
+        flex: 100%;
+    }
+
+    footer .container{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        gap: 35px;
+        padding: 20px;
+    }
+
+    .footer-center{
+        max-width: 100%;
+    }
+
+    .footer-right{
+        max-width: 100%;
+        flex: 100%;
+    }
+
+    .footer-right h2{
+        width: 300px;
+        font-size: 24px;
+    }
+}
