@@ -1,0 +1,106 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    gap: 130px;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 48px;
+    list-style-type: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; 
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.navbar a:hover{
+    color: #FFD2A4;
+}
+
+.nav-btn button{
+    background: #FFD2A4;
+    backdrop-filter: blur(40px);
+    padding: 20px 48px;
+    border-radius: 12px;
+    margin: 12px 0px;
+}
+
+
+  .bg_img{
+    background-image: url(https://www.the-warsaw.com/wp-content/uploads/2022/04/edwin-andrade-6liebVeAfrY-unsplash-1160x773.jpg)  ;
+   
+   background-size: 100%;
+   height: 80vh;
+  
+ } 
+
+.h2{
+font-size:regular 16px;
+color: #FFD2A4;
+padding-top: 160px;
+padding-left: 110px;
+}
+.p{
+    font-size: bold 100px;
+    color: #FFFFFF;
+    padding-top: 16px;
+    padding-left: 110px;
+}
+.section_2{
+    background-color: #E5E5E5;
+    border: 624px 484px;
+}
+
+.form{
+    padding-top: 40px;
+    width: 600px;
+    height: 700px; 
+}
+.input{
+ width: 
+ 624px;
+ height: 
+ Hug (64px);
+  border-color: #FFFFFF;
+  border-radius: 4px;
+
+}
+.message{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 260.5px;
+    padding-right: 260.5px;
+    background-color: #FFD2A4;
+}
