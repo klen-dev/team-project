@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin:0 110px;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
+
+#about_us {
+  background-image: url(../images/archa.png);
+}
+.serving {
+  padding: 160px 0;
+}
+
+.serving h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+  margin-top: 16px;
+}
+.serving h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #161722;
+}
+.compasion {
+  padding: 128px 0;
+  margin: 0 auto;
+}
+.compasion h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #161722;
+}
+.compasion h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+}
+.compasion p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #161722;
+  opacity: 0.78;
+  margin: 0 auto;
+  width: 768px;
+  height: 72px;
+}
+.church {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 48px;
+}
+.church div {
+  align-self: center;
+}
+.mission {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding-top: 64px;
+  flex-wrap: wrap;
+}
+.mission h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #161722;
+}
+.mission h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  width: 371px;
+  height: 88px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+  margin: 16px 0;
+}
+.mission p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161722;
+  opacity: 0.78;
+  width: 372px;
+  height: 144px;
+}
+.benefits h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #161722;
+}
+.benefits h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+  width: 500px;
+  height: 128px;
+  margin: 0 auto;
+}
+.box {
+  display: flex;
+  padding: 96px 128px 0;
+  gap: 24px;
+}
+
+.box:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 48px;
+}
+.box h3 {
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+  margin-bottom: 16px;
+}
+.box p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161722;
+  opacity: 0.78;
+}
+.welcom {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.picture {
+  width: 50%;
+}
+.page {
+  padding: 128px 0;
+}
+.page h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #161722;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.page h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+  margin-bottom: 64px;
+}
+.list {
+  display: flex;
+  gap: 24px;
+}
+.list > div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f2f0;
+  padding-bottom: 48px;
+}
+.list > div > img {
+  padding: 48px 0 24px;
+}
+.list h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+  margin: 0 auto;
+  text-align: center;
+}
+.list p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161722;
+  opacity: 0.7;
+  text-align: center;
+  margin: 8px 0 16px;
+}
+.one img {
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .serving {
+    padding: 50px 0;
+  }
+  .compasion p {
+    width: 300px;
+  }
+  .church div {
+    width: 100%;
+    text-align: center;
+  }
+  .church {
+    margin-top: 100px;
+  }
+  .tomorov {
+    width: 100%;
+  }
+  .world {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .mission h3 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .benefits h2 {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  .welcom {
+    width: 100%;
+  }
+  .container {
+    max-width: 450px;
+    margin: 0;
+  }
+  .box {
+    flex-wrap: wrap;
+    padding: 60px 10px;
+  }
+  .picture img {
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .box:nth-child(even) {
+    flex-direction: row;
+  }
+  .list {
+    flex-wrap: wrap;
+  }
+  .list > div {
+    width: 100%;
+    margin: 0 auto;
+    margin: 0 15px;
+  }
+  .navbar ul {
+    display: none;
+  }
+  header .container {
+    flex-wrap: wrap;
+  }
+}
